@@ -1,0 +1,53 @@
+body{
+ background: #000000;
+ font
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    color: #949494;
+}
+h1{
+    font-size 50px;
+    color: #0188AF;
+}
+footer{
+    padding-top: 10%;
+    color: white;
+}
+
+#checkText{
+border: 0;
+border-radius: 20px;
+}
+.login{
+    padding-top: 3%;
+}
+#fact_btn{
+    width: 20%;
+    background: #FFFFFF;
+    color: #0188AF;
+    font-size: 25px;
+    border: 0;
+    border-radius: 40px;
+    transition: .5s;
+}
+#fact_btn:hover{
+    transition: .5s;
+    width: 30%
+}
+#checkText{
+    width: 70%;
+    border: 0;
+}
+#checkText:hover{
+    width: 70%;
+    border: 0;
+}
+.info{
+    padding: 3%;
+    color: #FFFFFF;
+}
