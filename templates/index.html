@@ -26,7 +26,20 @@
 
 				{% if prediction == ['FAKE']%}
 							<p class="info">
-								<strong style="color: red;">Sorry</strong>, we don't have enough information about this.
+								<strong style="color: red;">Sorry</strong>, it's either the text is fake or we don't have enough data about it.
+								<br>
+								For more information about this please visit
+								<a href="https://www.cnnphilippines.com/">CNN</a>,
+								<a href="https://www.gmanetwork.com/news/">GMA 7</a>,
+								<a href="https://www.inquirer.net/">Philippine Daily Inquirer</a>,
+								<a href="https://www.philstar.com/">Philippine Star</a>,
+								<a href="https://mb.com.ph/">Manila Bulletin</a>,
+								<a href="https://www.manilatimes.net/">Manila Times</a>,
+								<a href="https://news.tv5.com.ph/">TV5</a>,
+								<a href="https://smninewschannel.com/">SMNI</a>,
+								<a href="https://news.abs-cbn.com/">ABS-CBN</a>
+								and
+								<a href="https://manilastandard.net/">Manila Standard</a>.
 							</p>
 
 				{% elif prediction == ['REAL']%}
